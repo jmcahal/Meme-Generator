@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME Generator</title>
+    <link rel="stylesheet" href="app.css"></link>
+</head>
+<body>
+    <form id="theForm">
+        <h1>
+            <span class="letter">M</span>
+            <span class="letter">E</span>
+            <span class="letter">M</span>
+            <span class="letter">E</span>
+            <br>    
+            <span class="letter">G</span>
+            <span class="letter">E</span>
+            <span class="letter">N</span>
+            <span class="letter">E</span>
+            <span class="letter">R</span>
+            <span class="letter">A</span>
+            <span class="letter">T</span>
+            <span class="letter">O</span>
+            <span class="letter">R</span>
+        </h1>
+        <h3>Complete the form to make a funny meme!</h3>
+        <div class= "formDiv">        
+
+            <label for="url">ENTER URL</label>
+            <input type="url" name="url" id="url-input" placeholder ="http://" class= "url">
+        </div>            
+        <br>
+        <div class= "formDiv">
+            <label for="upperText">Upper Caption</label>
+            <input type="text" name="upperText" placeholder ="funny words" id = "upperText-input">
+        </div>
+        <br>
+        <div class= "formDiv">
+        <label for="bottomText">Bottom Caption</label>
+        <input type="text" name="bottomText" placeholder ="more funny words" id="bottomText-input">
+        </div>
+        <br>
+        <div class= "formDiv">
+        <input type="submit" value ="MAKE MEME" id="submit">
+        </div>
+        <br>
+    </form>
+    <div id="memes">
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
